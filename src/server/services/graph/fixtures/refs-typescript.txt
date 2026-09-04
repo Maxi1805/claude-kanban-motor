@@ -1,0 +1,9 @@
+type Q = A.B;
+
+function render(path: string, options = DEFAULTS): void {
+  PathManager.join(path, "x");
+  array.join(",");
+  const o = { key: options };
+  const local: string = path;
+  helper(local);
+}

@@ -1,0 +1,972 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29",
+  "corpusSha": "12088935a39ccab0dd7f55bfab05c0f43cc0c2bec83077e6ee842b00bc210a79",
+  "corpusRepos": [
+    {
+      "slug": "click",
+      "worktreeSignature": "xsAuBO3VQNJ30e5v",
+      "scannedFiles": 32,
+      "analysedFiles": 30,
+      "languageFileCounts": {
+        "python": 30
+      }
+    },
+    {
+      "slug": "cobra",
+      "worktreeSignature": "OvZqN30NAcRMEU2e",
+      "scannedFiles": 19,
+      "analysedFiles": 19,
+      "languageFileCounts": {
+        "go": 19
+      }
+    },
+    {
+      "slug": "guava",
+      "worktreeSignature": "iiSFIix5BFQ3okYN",
+      "scannedFiles": 1977,
+      "analysedFiles": 1977,
+      "languageFileCounts": {
+        "java": 1975,
+        "javascript": 2
+      }
+    },
+    {
+      "slug": "jekyll",
+      "worktreeSignature": "lfPU3xPRqBfSsmUQ",
+      "scannedFiles": 109,
+      "analysedFiles": 109,
+      "languageFileCounts": {
+        "ruby": 106,
+        "javascript": 3
+      }
+    },
+    {
+      "slug": "lodash",
+      "worktreeSignature": "ZCh_E2qH_migoqIC",
+      "scannedFiles": 20,
+      "analysedFiles": 20,
+      "languageFileCounts": {
+        "javascript": 20
+      }
+    },
+    {
+      "slug": "newtonsoft-json",
+      "worktreeSignature": "ZvWNM3e7TZT4MbUl",
+      "scannedFiles": 945,
+      "analysedFiles": 945,
+      "languageFileCounts": {
+        "csharp": 945
+      }
+    },
+    {
+      "slug": "preact",
+      "worktreeSignature": "MK5R6nbkAUIX0Fbt",
+      "scannedFiles": 111,
+      "analysedFiles": 111,
+      "languageFileCounts": {
+        "typescript": 19,
+        "javascript": 89,
+        "tsx": 3
+      }
+    },
+    {
+      "slug": "vueuse",
+      "worktreeSignature": "BRSHONkDB7FDR1TU",
+      "scannedFiles": 600,
+      "analysedFiles": 598,
+      "languageFileCounts": {
+        "javascript": 3,
+        "typescript": 405,
+        "vue": 190
+      }
+    }
+  ],
+  "metrics": {
+    "wmc": {
+      "python": {
+        "n": 75,
+        "p50": 3,
+        "p90": 11,
+        "p95": 24,
+        "p99": 32
+      },
+      "java": {
+        "n": 3507,
+        "p50": 6,
+        "p90": 20,
+        "p95": 30,
+        "p99": 55
+      },
+      "ruby": {
+        "n": 102,
+        "p50": 6,
+        "p90": 21,
+        "p95": 25,
+        "p99": 48
+      },
+      "csharp": {
+        "n": 971,
+        "p50": 2,
+        "p90": 16,
+        "p95": 35,
+        "p99": 77
+      },
+      "javascript": {
+        "n": 23,
+        "p50": 3,
+        "p90": 8,
+        "p95": 9,
+        "p99": 10
+      },
+      "tsx": {
+        "n": 2,
+        "p50": 4,
+        "p90": 7,
+        "p95": 7,
+        "p99": 7
+      },
+      "vue": {
+        "n": 1,
+        "p50": 8,
+        "p90": 8,
+        "p95": 8,
+        "p99": 8
+      }
+    },
+    "chainLength": {
+      "python": {
+        "n": 671,
+        "p50": 0,
+        "p90": 2,
+        "p95": 2,
+        "p99": 2
+      },
+      "go": {
+        "n": 270,
+        "p50": 1,
+        "p90": 1,
+        "p95": 2,
+        "p99": 4
+      },
+      "java": {
+        "n": 33194,
+        "p50": 0,
+        "p90": 1,
+        "p95": 1,
+        "p99": 2
+      },
+      "javascript": {
+        "n": 1517,
+        "p50": 0,
+        "p90": 1,
+        "p95": 2,
+        "p99": 3
+      },
+      "ruby": {
+        "n": 950,
+        "p50": 0,
+        "p90": 2,
+        "p95": 2,
+        "p99": 2
+      },
+      "csharp": {
+        "n": 7277,
+        "p50": 0,
+        "p90": 1,
+        "p95": 2,
+        "p99": 3
+      },
+      "tsx": {
+        "n": 29,
+        "p50": 0,
+        "p90": 1,
+        "p95": 1,
+        "p99": 1
+      },
+      "typescript": {
+        "n": 2131,
+        "p50": 0,
+        "p90": 1,
+        "p95": 2,
+        "p99": 2
+      },
+      "vue": {
+        "n": 312,
+        "p50": 0,
+        "p90": 1,
+        "p95": 2,
+        "p99": 2
+      }
+    },
+    "functionLines": {
+      "python": {
+        "n": 671,
+        "p50": 8,
+        "p90": 39,
+        "p95": 55,
+        "p99": 119
+      },
+      "go": {
+        "n": 270,
+        "p50": 7,
+        "p90": 32,
+        "p95": 66,
+        "p99": 284
+      },
+      "java": {
+        "n": 33194,
+        "p50": 4,
+        "p90": 14,
+        "p95": 21,
+        "p99": 43
+      },
+      "javascript": {
+        "n": 1517,
+        "p50": 6,
+        "p90": 25,
+        "p95": 43,
+        "p99": 171
+      },
+      "ruby": {
+        "n": 950,
+        "p50": 5,
+        "p90": 14,
+        "p95": 19,
+        "p99": 27
+      },
+      "csharp": {
+        "n": 7277,
+        "p50": 10,
+        "p90": 36,
+        "p95": 51,
+        "p99": 107
+      },
+      "tsx": {
+        "n": 29,
+        "p50": 5,
+        "p90": 28,
+        "p95": 44,
+        "p99": 52
+      },
+      "typescript": {
+        "n": 2131,
+        "p50": 4,
+        "p90": 27,
+        "p95": 52,
+        "p99": 117
+      },
+      "vue": {
+        "n": 312,
+        "p50": 4,
+        "p90": 9,
+        "p95": 11,
+        "p99": 16
+      }
+    }
+  },
+  "diagnostics": {
+    "perRepo": [
+      {
+        "slug": "click",
+        "metric": "wmc",
+        "language": "python",
+        "repoPercentiles": {
+          "n": 75,
+          "p50": 3,
+          "p90": 11,
+          "p95": 24,
+          "p99": 32
+        },
+        "corpusPercentiles": {
+          "n": 75,
+          "p50": 3,
+          "p90": 11,
+          "p95": 24,
+          "p99": 32
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "click",
+        "metric": "chainLength",
+        "language": "python",
+        "repoPercentiles": {
+          "n": 671,
+          "p50": 0,
+          "p90": 2,
+          "p95": 2,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 671,
+          "p50": 0,
+          "p90": 2,
+          "p95": 2,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "click",
+        "metric": "functionLines",
+        "language": "python",
+        "repoPercentiles": {
+          "n": 671,
+          "p50": 8,
+          "p90": 39,
+          "p95": 55,
+          "p99": 119
+        },
+        "corpusPercentiles": {
+          "n": 671,
+          "p50": 8,
+          "p90": 39,
+          "p95": 55,
+          "p99": 119
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "cobra",
+        "metric": "chainLength",
+        "language": "go",
+        "repoPercentiles": {
+          "n": 270,
+          "p50": 1,
+          "p90": 1,
+          "p95": 2,
+          "p99": 4
+        },
+        "corpusPercentiles": {
+          "n": 270,
+          "p50": 1,
+          "p90": 1,
+          "p95": 2,
+          "p99": 4
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "cobra",
+        "metric": "functionLines",
+        "language": "go",
+        "repoPercentiles": {
+          "n": 270,
+          "p50": 7,
+          "p90": 32,
+          "p95": 66,
+          "p99": 284
+        },
+        "corpusPercentiles": {
+          "n": 270,
+          "p50": 7,
+          "p90": 32,
+          "p95": 66,
+          "p99": 284
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "guava",
+        "metric": "wmc",
+        "language": "java",
+        "repoPercentiles": {
+          "n": 3507,
+          "p50": 6,
+          "p90": 20,
+          "p95": 30,
+          "p99": 55
+        },
+        "corpusPercentiles": {
+          "n": 3507,
+          "p50": 6,
+          "p90": 20,
+          "p95": 30,
+          "p99": 55
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "guava",
+        "metric": "chainLength",
+        "language": "java",
+        "repoPercentiles": {
+          "n": 33194,
+          "p50": 0,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 33194,
+          "p50": 0,
+          "p90": 1,
+          "p95": 1,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "guava",
+        "metric": "chainLength",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 4,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": 0
+      },
+      {
+        "slug": "guava",
+        "metric": "functionLines",
+        "language": "java",
+        "repoPercentiles": {
+          "n": 33194,
+          "p50": 4,
+          "p90": 14,
+          "p95": 21,
+          "p99": 43
+        },
+        "corpusPercentiles": {
+          "n": 33194,
+          "p50": 4,
+          "p90": 14,
+          "p95": 21,
+          "p99": 43
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "guava",
+        "metric": "functionLines",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 4,
+          "p50": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 3
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 6,
+          "p90": 25,
+          "p95": 43,
+          "p99": 171
+        },
+        "repoToRestOfCorpusRatio": 0.07
+      },
+      {
+        "slug": "jekyll",
+        "metric": "wmc",
+        "language": "ruby",
+        "repoPercentiles": {
+          "n": 102,
+          "p50": 6,
+          "p90": 21,
+          "p95": 25,
+          "p99": 48
+        },
+        "corpusPercentiles": {
+          "n": 102,
+          "p50": 6,
+          "p90": 21,
+          "p95": 25,
+          "p99": 48
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "jekyll",
+        "metric": "chainLength",
+        "language": "ruby",
+        "repoPercentiles": {
+          "n": 950,
+          "p50": 0,
+          "p90": 2,
+          "p95": 2,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 950,
+          "p50": 0,
+          "p90": 2,
+          "p95": 2,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "jekyll",
+        "metric": "chainLength",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 182,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": 1
+      },
+      {
+        "slug": "jekyll",
+        "metric": "functionLines",
+        "language": "ruby",
+        "repoPercentiles": {
+          "n": 950,
+          "p50": 5,
+          "p90": 14,
+          "p95": 19,
+          "p99": 27
+        },
+        "corpusPercentiles": {
+          "n": 950,
+          "p50": 5,
+          "p90": 14,
+          "p95": 19,
+          "p99": 27
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "jekyll",
+        "metric": "functionLines",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 182,
+          "p50": 7,
+          "p90": 56,
+          "p95": 100,
+          "p99": 459
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 6,
+          "p90": 25,
+          "p95": 43,
+          "p99": 171
+        },
+        "repoToRestOfCorpusRatio": 2.7
+      },
+      {
+        "slug": "lodash",
+        "metric": "chainLength",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 816,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": 1
+      },
+      {
+        "slug": "lodash",
+        "metric": "functionLines",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 816,
+          "p50": 6,
+          "p90": 20,
+          "p95": 30,
+          "p99": 64
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 6,
+          "p90": 25,
+          "p95": 43,
+          "p99": 171
+        },
+        "repoToRestOfCorpusRatio": 0.55
+      },
+      {
+        "slug": "newtonsoft-json",
+        "metric": "wmc",
+        "language": "csharp",
+        "repoPercentiles": {
+          "n": 971,
+          "p50": 2,
+          "p90": 16,
+          "p95": 35,
+          "p99": 77
+        },
+        "corpusPercentiles": {
+          "n": 971,
+          "p50": 2,
+          "p90": 16,
+          "p95": 35,
+          "p99": 77
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "newtonsoft-json",
+        "metric": "chainLength",
+        "language": "csharp",
+        "repoPercentiles": {
+          "n": 7277,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "corpusPercentiles": {
+          "n": 7277,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "newtonsoft-json",
+        "metric": "functionLines",
+        "language": "csharp",
+        "repoPercentiles": {
+          "n": 7277,
+          "p50": 10,
+          "p90": 36,
+          "p95": 51,
+          "p99": 107
+        },
+        "corpusPercentiles": {
+          "n": 7277,
+          "p50": 10,
+          "p90": 36,
+          "p95": 51,
+          "p99": 107
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "preact",
+        "metric": "wmc",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 23,
+          "p50": 3,
+          "p90": 8,
+          "p95": 9,
+          "p99": 10
+        },
+        "corpusPercentiles": {
+          "n": 23,
+          "p50": 3,
+          "p90": 8,
+          "p95": 9,
+          "p99": 10
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "preact",
+        "metric": "wmc",
+        "language": "tsx",
+        "repoPercentiles": {
+          "n": 2,
+          "p50": 4,
+          "p90": 7,
+          "p95": 7,
+          "p99": 7
+        },
+        "corpusPercentiles": {
+          "n": 2,
+          "p50": 4,
+          "p90": 7,
+          "p95": 7,
+          "p99": 7
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "preact",
+        "metric": "chainLength",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 506,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": 1
+      },
+      {
+        "slug": "preact",
+        "metric": "chainLength",
+        "language": "tsx",
+        "repoPercentiles": {
+          "n": 29,
+          "p50": 0,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1
+        },
+        "corpusPercentiles": {
+          "n": 29,
+          "p50": 0,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "preact",
+        "metric": "chainLength",
+        "language": "typescript",
+        "repoPercentiles": {
+          "n": 16,
+          "p50": 0,
+          "p90": 1,
+          "p95": 1,
+          "p99": 1
+        },
+        "corpusPercentiles": {
+          "n": 2131,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": 0.5
+      },
+      {
+        "slug": "preact",
+        "metric": "functionLines",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 506,
+          "p50": 5,
+          "p90": 27,
+          "p95": 42,
+          "p99": 129
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 6,
+          "p90": 25,
+          "p95": 43,
+          "p99": 171
+        },
+        "repoToRestOfCorpusRatio": 0.95
+      },
+      {
+        "slug": "preact",
+        "metric": "functionLines",
+        "language": "tsx",
+        "repoPercentiles": {
+          "n": 29,
+          "p50": 5,
+          "p90": 28,
+          "p95": 44,
+          "p99": 52
+        },
+        "corpusPercentiles": {
+          "n": 29,
+          "p50": 5,
+          "p90": 28,
+          "p95": 44,
+          "p99": 52
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "preact",
+        "metric": "functionLines",
+        "language": "typescript",
+        "repoPercentiles": {
+          "n": 16,
+          "p50": 3,
+          "p90": 9,
+          "p95": 33,
+          "p99": 33
+        },
+        "corpusPercentiles": {
+          "n": 2131,
+          "p50": 4,
+          "p90": 27,
+          "p95": 52,
+          "p99": 117
+        },
+        "repoToRestOfCorpusRatio": 0.63
+      },
+      {
+        "slug": "vueuse",
+        "metric": "wmc",
+        "language": "vue",
+        "repoPercentiles": {
+          "n": 1,
+          "p50": 8,
+          "p90": 8,
+          "p95": 8,
+          "p99": 8
+        },
+        "corpusPercentiles": {
+          "n": 1,
+          "p50": 8,
+          "p90": 8,
+          "p95": 8,
+          "p99": 8
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "vueuse",
+        "metric": "chainLength",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 9,
+          "p50": 0,
+          "p90": 3,
+          "p95": 3,
+          "p99": 3
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 3
+        },
+        "repoToRestOfCorpusRatio": 1.5
+      },
+      {
+        "slug": "vueuse",
+        "metric": "chainLength",
+        "language": "typescript",
+        "repoPercentiles": {
+          "n": 2115,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 2131,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": 2
+      },
+      {
+        "slug": "vueuse",
+        "metric": "chainLength",
+        "language": "vue",
+        "repoPercentiles": {
+          "n": 312,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "corpusPercentiles": {
+          "n": 312,
+          "p50": 0,
+          "p90": 1,
+          "p95": 2,
+          "p99": 2
+        },
+        "repoToRestOfCorpusRatio": null
+      },
+      {
+        "slug": "vueuse",
+        "metric": "functionLines",
+        "language": "javascript",
+        "repoPercentiles": {
+          "n": 9,
+          "p50": 5,
+          "p90": 20,
+          "p95": 20,
+          "p99": 20
+        },
+        "corpusPercentiles": {
+          "n": 1517,
+          "p50": 6,
+          "p90": 25,
+          "p95": 43,
+          "p99": 171
+        },
+        "repoToRestOfCorpusRatio": 0.47
+      },
+      {
+        "slug": "vueuse",
+        "metric": "functionLines",
+        "language": "typescript",
+        "repoPercentiles": {
+          "n": 2115,
+          "p50": 4,
+          "p90": 27,
+          "p95": 52,
+          "p99": 117
+        },
+        "corpusPercentiles": {
+          "n": 2131,
+          "p50": 4,
+          "p90": 27,
+          "p95": 52,
+          "p99": 117
+        },
+        "repoToRestOfCorpusRatio": 1.58
+      },
+      {
+        "slug": "vueuse",
+        "metric": "functionLines",
+        "language": "vue",
+        "repoPercentiles": {
+          "n": 312,
+          "p50": 4,
+          "p90": 9,
+          "p95": 11,
+          "p99": 16
+        },
+        "corpusPercentiles": {
+          "n": 312,
+          "p50": 4,
+          "p90": 9,
+          "p95": 11,
+          "p99": 16
+        },
+        "repoToRestOfCorpusRatio": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+namespace Outer {
+  export namespace Inner {
+    export class Widget {
+      count: number = 0;
+
+      render(): void {
+        const local = this.count;
+        void local;
+      }
+    }
+  }
+}
+
+class Shape {
+  name: string = "shape";
+
+  area(): number {
+    return 0;
+  }
+}
+
+const TOP_LEVEL = 1;
+
+function standalone(x: number): number {
+  return x;
+}
