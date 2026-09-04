@@ -451,7 +451,7 @@
  * arriba no agotan Ruby — su receptor propio puede además ser IMPLICITO: se
  * escribe `hookable_type`, nunca `self.hookable_type`/`@hookable_type`, para
  * leer un atributo/metodo del propio objeto. Medido sobre los 5
- * `repeated-switch` reales de `Visability/Backend`: el check por texto
+ * `repeated-switch` reales de `un Rails/Vue privado`: el check por texto
  * rechazaba los 5 — incluido `"hookable_type"` en `app/models/hookable.rb`,
  * donde 2 de sus 3 ubicaciones (`type_specific_json`, `target_label`) SI son
  * ese cuarto caso (la tercera, `index_metadata`, NO lo es: ahi

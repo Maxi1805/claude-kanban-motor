@@ -990,7 +990,7 @@ const singleFileComponentStage: ResolutionStage = {
  * ALGÚN target es alcanzable, se narrowea a esos (evidencia positiva, se
  * usa); si NINGUNO lo es, la etapa PASA (dev vuelve `candidate.targets`
  * intacto), nunca `reject`. Medido, con `dump-graph-census.mts` antes/después
- * sobre el Rails real (`/home/maxi1805/Visability/Backend`): la primera
+ * sobre el Rails real (`<repo privado del usuario>/Backend`): la primera
  * versión (con `narrowedOrReject`, rechazo a cero incluido) bajaba
  * `references` de 2.546 a 2.534 — 12 aristas genuinamente correctas
  * perdidas, TODAS del mismo patrón: un script Ruby con exactamente UN

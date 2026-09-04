@@ -175,7 +175,7 @@
  * `has_many :children, class_name: 'Folder'`) — nunca duplica texto entre
  * archivos: vive entera en un solo lugar, así que esta hipótesis nunca
  * llegaba a evaluarse ahí. Caso real que expuso el hueco (verificado a
- * mano): `/home/maxi1805/Visability/Backend/app/models/folder.rb` —
+ * mano): `<repo privado del usuario>/Backend/app/models/folder.rb` —
  * `has_many :children` (línea 11) + `belongs_to :parent` (línea 10), con
  * `not_empty?`/`ensure_empty` ya usando el vocabulario exacto que
  * `CHILDREN_WORD`/`EMPTINESS_WORD` esperaban, y un recorrido manual de

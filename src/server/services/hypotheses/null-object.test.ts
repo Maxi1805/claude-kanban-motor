@@ -1323,7 +1323,7 @@ end`,
    * a un salto. No estaba inerte (R1 dejó `ctx.fileAt` resolviendo para todo
    * ancla inter-file, y `distributed-duplication` lo es) y el vecindario, en
    * un repo real, conecta casi cualquier par de archivos: medido, producía 4
-   * hipótesis en `corpus/newtonsoft-json` y 4 en `Visability/Frontend` cuyas
+   * hipótesis en `corpus/newtonsoft-json` y 4 en `un Rails/Vue privado` cuyas
    * `places` no tenían NADA que ver con el `where` del hallazgo ancla.
    *
    * El caso de acá es exactamente ése, en miniatura: el concepto disperso

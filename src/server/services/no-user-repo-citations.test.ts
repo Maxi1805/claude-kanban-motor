@@ -1,7 +1,7 @@
 /**
  * El lint de cifras del usuario — regla dura #4 / PLAN.md §0 y §7.
  *
- * "Los repos /home/maxi1805/Visability/Backend y /Frontend son SOLO LECTURA
+ * "Los repos <repo privado del usuario>/Backend y /Frontend son SOLO LECTURA
  * y sirven solo como prueba de humo (que no explote, que no vaya lento).
  * Esta PROHIBIDO ajustar, calibrar o descartar una regla o un umbral
  * mirando esos repos, y esta prohibido escribir una cifra sacada de ellos
@@ -61,7 +61,7 @@ const FORBIDDEN_ANCHORS: { pattern: RegExp; why: string }[] = [
   { pattern: /\breference repos?\b/i, why: "'reference repo(s)' + un número es una cifra medida, no un smoke test" },
   { pattern: /\bbackend,\s*\d/i, why: "'Backend, N files' — conteo del repo privado" },
   { pattern: /\bfrontend,?\s*\d/i, why: "'Frontend, N' — conteo del repo privado" },
-  { pattern: /db\/schema\.rb/i, why: "archivo real de Visability/Backend (Rails) — este repo no tiene ninguno" },
+  { pattern: /db\/schema\.rb/i, why: "archivo real de un Rails/Vue privado (Rails) — este repo no tiene ninguno" },
 ];
 
 /** Bloques `/** ... *\/`, `/* ... *\/` y corridas de `//` consecutivas. */

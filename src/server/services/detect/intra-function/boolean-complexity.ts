@@ -3,7 +3,7 @@
  * "Condicional booleano complejo | función | gramática", SonarSource S1067
  * "Expressions should not be too complex").
  *
- * REDEFINICIÓN (ola de precisión, ver `/home/maxi1805/claude-kanban-docs/RAICES.md`):
+ * REDEFINICIÓN (ola de precisión, ver `<docs del proyecto>/RAICES.md`):
  * la versión anterior de este detector contaba TODO operador lógico
  * encadenado, mezclado o no, y disparaba con el solo largo de la cadena.
  * Precisión medida: 0/18 en el veredicto humano de
@@ -245,7 +245,7 @@ export const detector: IntraFunctionDetector<ThresholdKey, "boolean-complexity">
   title: "Condicional booleano complejo",
   needs: [],
   thresholds: {
-    // CORRECCIÓN (ver `/home/maxi1805/claude-kanban-docs/RAICES.md`, PENDIENTES
+    // CORRECCIÓN (ver `<docs del proyecto>/RAICES.md`, PENDIENTES
     // §1-BIS "el apagado"): este umbral citaba antes S1067 con `max=3`
     // — el "max" por defecto de Sonar para la complejidad DE CONTEO, una
     // regla que nunca exigió mezcla. Al agregar la exigencia de mezcla real

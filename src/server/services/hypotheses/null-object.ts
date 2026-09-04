@@ -2045,7 +2045,7 @@ export const nullObject: HypothesisBuilder = {
     //     `Close()`/`Dispose()` duplicados en `BsonReader.cs`/
     //     `JsonTextReader.cs`/`JsonTextWriter.cs`. Verificado a mano
     //     abriendo los archivos: cero relación.
-    //   - `Visability/Frontend` (Vue): 4 hipótesis, 3 de ellas idénticas,
+    //   - `un Rails/Vue privado` (Vue): 4 hipótesis, 3 de ellas idénticas,
     //     recomendando un Null Object para `formRendererRef.value`
     //     (`FormPublicPage.vue`) sobre un ancla cuyo `where` son
     //     `BookingCalendar.vue`/`CalendarView.vue`.

@@ -72,7 +72,7 @@
  * de constructor/fábrica?" — es decir, "muchos parámetros + construye algo".
  * Ninguna pregunta sobre construcción POR ETAPAS, estado intermedio, ni
  * lógica de ensamblaje. Los 7 casos, verificados leyendo el código real del
- * usuario (`Visability/Backend`, sólo lectura) y de este mismo repo:
+ * usuario (`un Rails/Vue privado`, sólo lectura) y de este mismo repo:
  *
  *   - `booking_configuration.rb#create_booking`, `calendar_module.rb#
  *     create_booking`: reenvían sus parámetros SIN TOCARLOS a la siguiente
@@ -384,7 +384,7 @@
  * `scripts/sample-builder-alternative-for-judgment.mts` (usa
  * `resolveLiveFileUnit`, R1, para tener `ctx.file` vivo — igual que
  * producción para este ancla) muestreó, vía `con-analisis.sh`, sobre
- * `Visability/Backend` (Ruby, sólo lectura), este mismo repo (`src/`,
+ * `un Rails/Vue privado` (Ruby, sólo lectura), este mismo repo (`src/`,
  * TypeScript), y dos subárboles reales de `corpus/guava` (Java:
  * `guava/src/com/google/common/collect`, 216 archivos, y `.../util/
  * concurrent`, 84 archivos — RAICES.md, advertencia de sesgo: Java/C# eran
@@ -400,7 +400,7 @@
  *
  * | población | lenguaje | emitidas | verdadero | falso | dudoso |
  * |---|---|---|---|---|---|
- * | rails (Visability/Backend) | Ruby | 6 | 5 | 0 | 1 |
+ * | rails (un Rails/Vue privado) | Ruby | 6 | 5 | 0 | 1 |
  * | ck-analyzer (`src/`) | TypeScript | 1 | 1 | 0 | 0 |
  * | guava-collect | Java | 8 | 0 | 8 | 0 |
  * | newtonsoft-json | C# | 0 (ninguna emitida) | — | — | — |
@@ -1018,7 +1018,7 @@ function countInOwnScope(node: AstNode, sets: DerivedNodeSets, pred: (n: AstNode
  * mayúscula (`Type(...)` de Python/Go).
  *
  * *** AJUSTE MEDIDO, no hipotético *** (corrida real sobre
- * `Visability/Backend`, este frente): la versión de `proxy.ts` acepta
+ * `un Rails/Vue privado`, este frente): la versión de `proxy.ts` acepta
  * CUALQUIER callee cuyo PRIMER segmento empiece en mayúscula, con o sin
  * punto — correcto para su propio uso (un guard `@campo ||= X.new(...)`, ya
  * acotado a un patrón de asignación perezosa) pero DEMASIADO ancho acá,

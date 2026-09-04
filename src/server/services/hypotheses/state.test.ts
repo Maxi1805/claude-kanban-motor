@@ -382,7 +382,7 @@ end
 /* ────────────────────────────────────────────────────────────────────────
  * Receptor propio IMPLÍCITO en Ruby (sin `@`/`self.`), vía grafo de
  * referencias — caso real medido: `"hookable_type"` en
- * `app/models/hookable.rb` (Visability/Backend), 3 ubicaciones, donde
+ * `app/models/hookable.rb` (un Rails/Vue privado), 3 ubicaciones, donde
  * `selfPrefixCheck` por texto puro rechazaba las 5 `repeated-switch` reales
  * del repo. Fixtures acá son una reducción fiel de esa forma, no inventada.
  * ──────────────────────────────────────────────────────────────────────── */

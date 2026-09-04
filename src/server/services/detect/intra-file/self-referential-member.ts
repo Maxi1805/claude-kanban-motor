@@ -11,7 +11,7 @@
  * archivos: vive entera en un solo lugar. `distributed-duplication` es
  * estructuralmente ciego a esa forma, así que Composite nunca llegaba a
  * evaluarse ahí. Caso real que expuso el hueco:
- * `/home/maxi1805/Visability/Backend/app/models/folder.rb` — `has_many
+ * `<repo privado del usuario>/Backend/app/models/folder.rb` — `has_many
  * :children` (línea 11) + `belongs_to :parent` (línea 10), con
  * `not_empty?`/`ensure_empty` (línea ~79/83) ya usando el vocabulario exacto
  * que `hypotheses/composite.ts#EMPTINESS_WORD`/`CHILDREN_WORD` esperaban, y
