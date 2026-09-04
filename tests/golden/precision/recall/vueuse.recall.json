@@ -1,0 +1,15 @@
+{
+  "slug": "vueuse",
+  "sha": "c04c44a46630f78a880cdf8696dda49394d7d201",
+  "measuredAt": "2026-09-02T14:40:07.971Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 293,
+  "source": "scratchpad-aterrizaje/dumps-despues/vueuse.json",
+  "status": {
+    "complexity:5UG8MnxgM9hu95zU": "id",
+    "homonymous-delegation:KW3EB57V5QcD9p2x": "id",
+    "long-function:1c8-oZxaf5_Pqve9": "id",
+    "long-function:25SdfD0oSxPRbkG3": "id",
+    "repeated-switch:bXmWui3lw9-JuXKY": "id"
+  }
+}

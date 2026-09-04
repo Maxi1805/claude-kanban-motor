@@ -1,0 +1,19 @@
+{
+  "slug": "chatwoot",
+  "sha": "",
+  "measuredAt": "2026-09-02T14:40:07.335Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 1271,
+  "source": "scratchpad-aterrizaje/dumps-despues/chatwoot.json",
+  "status": {
+    "complexity:-bzeOMc9VN53tQ4_": "perdido",
+    "conditional-chain:FPUrzkVGE2xnLmrV": "id",
+    "distributed-duplication:5vNljzoOSfSys08Q": "id",
+    "distributed-duplication:UfRObMsZ03E9FG8m": "id",
+    "distributed-duplication:xdHRTScSdr08cgGo": "id",
+    "layer-skip:MMr_Q-cqKrFaHtLg": "id",
+    "long-function:LzmOnr3epTpinKRy": "id",
+    "repeated-access-control:_b4nauIeyliMQS3y": "id",
+    "repeated-switch:G9RKybK6kGTmIKVZ": "id"
+  }
+}

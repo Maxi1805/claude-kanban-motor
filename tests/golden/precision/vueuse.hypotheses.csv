@@ -1,0 +1,4 @@
+id,slug,pattern,state,kind,file,startLine,endLine,symbol,title,detail,confidence,cost,toConfirm,places,evidence,verdict,causeTag,note,stillPresent
+u-m0::Command::vueuse::packages/core/useDropZone/demo.vue:8,vueuse,Command,ausente,,packages/core/useDropZone/demo.vue,8,8,,,,,,,,,falso,ancla-equivocada,"onDrop/onImageDrop: callbacks planos pasados a useDropZone, idiom nativo de JS, Command no aporta.",true
+u-m0::Command::vueuse::packages/core/useLocalStorage/index.ts:21,vueuse,Command,parcial,,packages/core/useLocalStorage/index.ts,21,21,,,,,,,,,falso,ancla-equivocada,wrapper delgado que delega a useStorage().,true
+u-m0::Composite::vueuse::packages/core/useFetch/index.ts:75,vueuse,Composite,ausente,,packages/core/useFetch/index.ts,75,75,,,,,,,,,falso,ancla-equivocada,"interfaz fluida de verbos HTTP (get/post/put/...), encadenable, no composicion de partes/todo.",true

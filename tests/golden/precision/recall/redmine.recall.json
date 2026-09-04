@@ -1,0 +1,26 @@
+{
+  "slug": "redmine",
+  "sha": "",
+  "measuredAt": "2026-09-02T14:40:07.847Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 848,
+  "source": "scratchpad-aterrizaje/dumps-despues/redmine.json",
+  "status": {
+    "complexity:-cABKRiFOOATiQio": "id",
+    "complexity:1LPf480OTVIF2Iyd": "id",
+    "complexity:20JeHZZ7r2gpz_GY": "id",
+    "conditional-chain:C7nip8M4mIssq7iP": "id",
+    "conditional-chain:sB6UTrxVxRGz3fI_": "id",
+    "conditional-chain:tLrODOUNvU-BhkZ8": "id",
+    "conditional-chain:v7xhPnPCV_IN-NBJ": "id",
+    "god-component:gIdDYhXpTcdPsdP5": "id",
+    "homonymous-divergent-sequence:7NT0IuVbU6GJPGgI": "id",
+    "large-class:CGmPSbqhmRuhvj_T": "id",
+    "large-class:YXw3660X1a8TgrYc": "id",
+    "long-function:WMmcWVEPaqNdDNo1": "id",
+    "repeated-access-control:23H0D3niMQAGONTo": "id",
+    "repeated-switch:Q1sgLm16vSswqzgj": "id",
+    "repeated-switch:gY23e2P5ucYRA7D5": "id",
+    "temporary-field:GNbVxwMKzvsNYs6B": "id"
+  }
+}

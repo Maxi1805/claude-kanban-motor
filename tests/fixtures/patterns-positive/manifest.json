@@ -1,0 +1,2060 @@
+[
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/go.mutA.go",
+    "pattern": "abstract_factory",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/go.go",
+    "renamedIdentifiers": [
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/javascript.mutA.js",
+    "pattern": "abstract_factory",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/javascript.js",
+    "renamedIdentifiers": [
+      "GUIFactory",
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/python.mutA.py",
+    "pattern": "abstract_factory",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/python.py",
+    "renamedIdentifiers": [
+      "GUIFactory",
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/ruby.mutA.rb",
+    "pattern": "abstract_factory",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/ruby.rb",
+    "renamedIdentifiers": [
+      "GUIFactory",
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/typescript.mutA.ts",
+    "pattern": "abstract_factory",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/typescript.ts",
+    "renamedIdentifiers": [
+      "GUIFactory",
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/vue.mutA.vue",
+    "pattern": "abstract_factory",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/vue.vue",
+    "renamedIdentifiers": [
+      "GUIFactory",
+      "WinFactory",
+      "MacFactory"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/mutB.ts",
+    "pattern": "abstract_factory",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/typescript.ts",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "Las 2 fábricas concretas se aplanan en 2 funciones de creación con la MISMA cadena condicional repetida — huecos de creación homónimos sin una fábrica compartida."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/abstract_factory/mutB.py",
+    "pattern": "abstract_factory",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/abstract_factory/python.py",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "Las 2 fábricas concretas se aplanan en 2 funciones de creación con la MISMA cadena condicional repetida — huecos de creación homónimos sin una fábrica compartida."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/go.mutA.go",
+    "pattern": "builder",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/go.go",
+    "renamedIdentifiers": [
+      "PizzaBuilder",
+      "PizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/javascript.mutA.js",
+    "pattern": "builder",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/javascript.js",
+    "renamedIdentifiers": [
+      "PizzaBuilder",
+      "PizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/python.mutA.py",
+    "pattern": "builder",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/python.py",
+    "renamedIdentifiers": [
+      "PizzaBuilder",
+      "PizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/ruby.mutA.rb",
+    "pattern": "builder",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/ruby.rb",
+    "renamedIdentifiers": [
+      "PizzaBuilder",
+      "PizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/typescript.mutA.ts",
+    "pattern": "builder",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/typescript.ts",
+    "renamedIdentifiers": [
+      "PizzaBuilder",
+      "PizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/vue.mutA.vue",
+    "pattern": "builder",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/builder/vue.vue",
+    "renamedIdentifiers": [
+      "usePizzaBuilder",
+      "usePizzaOrder"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/mutB.ts",
+    "pattern": "builder",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/builder/typescript.ts",
+    "problemsAnchored": [
+      "Exceso de parámetros"
+    ],
+    "patternState": "ausente",
+    "note": "El encadenamiento fluido de PizzaBuilder se reemplaza por un constructor telescópico con 7 parámetros."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/builder/mutB.py",
+    "pattern": "builder",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/builder/python.py",
+    "problemsAnchored": [
+      "Exceso de parámetros"
+    ],
+    "patternState": "ausente",
+    "note": "El encadenamiento fluido de PizzaBuilder se reemplaza por un constructor telescópico con 7 parámetros."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/go.mutA.go",
+    "pattern": "chain_of_responsibility",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/go.go",
+    "renamedIdentifiers": [
+      "Handler",
+      "Cache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/javascript.mutA.js",
+    "pattern": "chain_of_responsibility",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/javascript.js",
+    "renamedIdentifiers": [
+      "Handler",
+      "Cache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/python.mutA.py",
+    "pattern": "chain_of_responsibility",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/python.py",
+    "renamedIdentifiers": [
+      "Handler",
+      "Cache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/ruby.mutA.rb",
+    "pattern": "chain_of_responsibility",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/ruby.rb",
+    "renamedIdentifiers": [
+      "Handler",
+      "Cache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/typescript.mutA.ts",
+    "pattern": "chain_of_responsibility",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/typescript.ts",
+    "renamedIdentifiers": [
+      "Handler",
+      "Cache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/vue.mutA.vue",
+    "pattern": "chain_of_responsibility",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/vue.vue",
+    "renamedIdentifiers": [
+      "useHandler",
+      "useCache"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/mutB.ts",
+    "pattern": "chain_of_responsibility",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El enlace next/handle se reemplaza por una pila de guardas (validator, logger) repetida verbatim en 2 métodos, en vez de un handler encadenable."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/chain_of_responsibility/mutB.py",
+    "pattern": "chain_of_responsibility",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/chain_of_responsibility/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El enlace next/handle se reemplaza por una pila de guardas (validator, logger) repetida verbatim en 2 métodos, en vez de un handler encadenable."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/go.mutA.go",
+    "pattern": "composite",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/go.go",
+    "renamedIdentifiers": [
+      "ShapeGroup",
+      "Invoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/javascript.mutA.js",
+    "pattern": "composite",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/javascript.js",
+    "renamedIdentifiers": [
+      "ShapeGroup",
+      "Invoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/python.mutA.py",
+    "pattern": "composite",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/python.py",
+    "renamedIdentifiers": [
+      "ShapeGroup",
+      "Invoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/ruby.mutA.rb",
+    "pattern": "composite",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/ruby.rb",
+    "renamedIdentifiers": [
+      "ShapeGroup",
+      "Invoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/typescript.mutA.ts",
+    "pattern": "composite",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/typescript.ts",
+    "renamedIdentifiers": [
+      "ShapeGroup",
+      "Invoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/vue.mutA.vue",
+    "pattern": "composite",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/composite/vue.vue",
+    "renamedIdentifiers": [
+      "useShapeGroup",
+      "useInvoice"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/mutB.ts",
+    "pattern": "composite",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/composite/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El mismo recorrido de árbol (add + render vía forEach) se duplica para una segunda familia no relacionada, en vez de compartir la abstracción Composite."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/composite/mutB.py",
+    "pattern": "composite",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/composite/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El mismo recorrido de árbol (add + render vía forEach) se duplica para una segunda familia no relacionada, en vez de compartir la abstracción Composite."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/go.mutA.go",
+    "pattern": "decorator",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/go.go",
+    "renamedIdentifiers": [
+      "ColorDecorator",
+      "ReportGenerator",
+      "NewColorDecorator",
+      "NewReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/javascript.mutA.js",
+    "pattern": "decorator",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/javascript.js",
+    "renamedIdentifiers": [
+      "ColorDecorator",
+      "ReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/python.mutA.py",
+    "pattern": "decorator",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/python.py",
+    "renamedIdentifiers": [
+      "ColorDecorator",
+      "ReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/ruby.mutA.rb",
+    "pattern": "decorator",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/ruby.rb",
+    "renamedIdentifiers": [
+      "ColorDecorator",
+      "ReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/typescript.mutA.ts",
+    "pattern": "decorator",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/typescript.ts",
+    "renamedIdentifiers": [
+      "ColorDecorator",
+      "ReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/vue.mutA.vue",
+    "pattern": "decorator",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/vue.vue",
+    "renamedIdentifiers": [
+      "useColorDecorator",
+      "useReportGenerator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/mutB.ts",
+    "pattern": "decorator",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/typescript.ts",
+    "problemsAnchored": [
+      "Condicional booleano complejo",
+      "Bandera booleana como parámetro"
+    ],
+    "patternState": "ausente",
+    "note": "La composición de wrappers se reemplaza por un acumulador con 3 capas condicionales sobre 3 flags booleanos."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/decorator/mutB.py",
+    "pattern": "decorator",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/decorator/python.py",
+    "problemsAnchored": [
+      "Condicional booleano complejo",
+      "Bandera booleana como parámetro"
+    ],
+    "patternState": "ausente",
+    "note": "La composición de wrappers se reemplaza por un acumulador con 3 capas condicionales sobre 3 flags booleanos."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/go.mutA.go",
+    "pattern": "facade",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/go.go",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/javascript.mutA.js",
+    "pattern": "facade",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/javascript.js",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/python.mutA.py",
+    "pattern": "facade",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/python.py",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/ruby.mutA.rb",
+    "pattern": "facade",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/ruby.rb",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/typescript.mutA.ts",
+    "pattern": "facade",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/typescript.ts",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/vue.mutA.vue",
+    "pattern": "facade",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/facade/vue.vue",
+    "renamedIdentifiers": [
+      "OrderFacade"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/mutB.ts",
+    "pattern": "facade",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/facade/typescript.ts",
+    "problemsAnchored": [
+      "Exceso de parámetros",
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "La fachada desaparece: 2 funciones llamadoras repiten la misma secuencia de 4 pasos con los mismos 5 colaboradores como parámetros."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/facade/mutB.py",
+    "pattern": "facade",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/facade/python.py",
+    "problemsAnchored": [
+      "Exceso de parámetros",
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "La fachada desaparece: 2 funciones llamadoras repiten la misma secuencia de 4 pasos con los mismos 5 colaboradores como parámetros."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/go.mutA.go",
+    "pattern": "factory_method_override",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/go.go",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/javascript.mutA.js",
+    "pattern": "factory_method_override",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/javascript.js",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog",
+      "BuggyDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/python.mutA.py",
+    "pattern": "factory_method_override",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/python.py",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog",
+      "BuggyDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/ruby.mutA.rb",
+    "pattern": "factory_method_override",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/ruby.rb",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog",
+      "BuggyDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/typescript.mutA.ts",
+    "pattern": "factory_method_override",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/typescript.ts",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog",
+      "BuggyDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/vue.mutA.vue",
+    "pattern": "factory_method_override",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/vue.vue",
+    "renamedIdentifiers": [
+      "Dialog",
+      "WindowsDialog",
+      "WebDialog",
+      "BuggyDialog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/mutB.ts",
+    "pattern": "factory_method_override",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/typescript.ts",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "La jerarquía Dialog/WindowsDialog/WebDialog se reemplaza por una cadena de condicionales que instancia el tipo — el ejemplo textual del plan (chainInstantiates)."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/factory_method_override/mutB.py",
+    "pattern": "factory_method_override",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/factory_method_override/python.py",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "La jerarquía Dialog/WindowsDialog/WebDialog se reemplaza por una cadena de condicionales que instancia el tipo — el ejemplo textual del plan (chainInstantiates)."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/go.mutA.go",
+    "pattern": "interface_similarity",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/go.go",
+    "renamedIdentifiers": [
+      "CreditCardPayment",
+      "PayPalPayment",
+      "Report",
+      "Widget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/javascript.mutA.js",
+    "pattern": "interface_similarity",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/javascript.js",
+    "renamedIdentifiers": [
+      "CreditCardPayment",
+      "PayPalPayment",
+      "Report",
+      "Widget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/python.mutA.py",
+    "pattern": "interface_similarity",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/python.py",
+    "renamedIdentifiers": [
+      "CreditCardPayment",
+      "PayPalPayment",
+      "Report",
+      "Widget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/ruby.mutA.rb",
+    "pattern": "interface_similarity",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/ruby.rb",
+    "renamedIdentifiers": [
+      "CreditCardPayment",
+      "PayPalPayment",
+      "Report",
+      "Widget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/typescript.mutA.ts",
+    "pattern": "interface_similarity",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/typescript.ts",
+    "renamedIdentifiers": [
+      "CreditCardPayment",
+      "PayPalPayment",
+      "Report",
+      "Widget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/interface_similarity/vue.mutA.vue",
+    "pattern": "interface_similarity",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/interface_similarity/vue.vue",
+    "renamedIdentifiers": [
+      "useCreditCardPayment",
+      "usePayPalPayment",
+      "useReport",
+      "useWidget"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/go.mutA.go",
+    "pattern": "iterator",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/go.go",
+    "renamedIdentifiers": [
+      "NumberIterator",
+      "Paginator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/javascript.mutA.js",
+    "pattern": "iterator",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/javascript.js",
+    "renamedIdentifiers": [
+      "NumberIterator",
+      "Paginator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/python.mutA.py",
+    "pattern": "iterator",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/python.py",
+    "renamedIdentifiers": [
+      "NumberCollection",
+      "HalfIterator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/ruby.mutA.rb",
+    "pattern": "iterator",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/ruby.rb",
+    "renamedIdentifiers": [
+      "NumberCollection",
+      "Paginator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/typescript.mutA.ts",
+    "pattern": "iterator",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/typescript.ts",
+    "renamedIdentifiers": [
+      "NumberIterator",
+      "Paginator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/vue.mutA.vue",
+    "pattern": "iterator",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/vue.vue",
+    "renamedIdentifiers": [
+      "useNumberIterator",
+      "usePaginator"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/mutB.ts",
+    "pattern": "iterator",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "Sin next()/__next__: el recorrido con cursor manual (i, arr[i], i+=1) se duplica en 2 sitios de llamada."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/iterator/mutB.py",
+    "pattern": "iterator",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/iterator/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "Sin next()/__next__: el recorrido con cursor manual (i, arr[i], i+=1) se duplica en 2 sitios de llamada."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/go.mutA.go",
+    "pattern": "null_object",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/go.go",
+    "renamedIdentifiers": [
+      "ConsoleLogger",
+      "NullLogger",
+      "ReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/javascript.mutA.js",
+    "pattern": "null_object",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/javascript.js",
+    "renamedIdentifiers": [
+      "ConsoleLogger",
+      "NullLogger",
+      "ReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/python.mutA.py",
+    "pattern": "null_object",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/python.py",
+    "renamedIdentifiers": [
+      "ConsoleLogger",
+      "NullLogger",
+      "ReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/ruby.mutA.rb",
+    "pattern": "null_object",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/ruby.rb",
+    "renamedIdentifiers": [
+      "ConsoleLogger",
+      "NullLogger",
+      "ReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/typescript.mutA.ts",
+    "pattern": "null_object",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/typescript.ts",
+    "renamedIdentifiers": [
+      "ConsoleLogger",
+      "NullLogger",
+      "ReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/vue.mutA.vue",
+    "pattern": "null_object",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/vue.vue",
+    "renamedIdentifiers": [
+      "useConsoleLogger",
+      "useNullLogger",
+      "useReportOptions"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/mutB.ts",
+    "pattern": "null_object",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "NullLogger desaparece; cada sitio de uso repite la misma rama 'si no es null' en vez de un objeto nulo compartido."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/null_object/mutB.py",
+    "pattern": "null_object",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/null_object/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "NullLogger desaparece; cada sitio de uso repite la misma rama 'si no es null' en vez de un objeto nulo compartido."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/go.mutA.go",
+    "pattern": "observer",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/go.go",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/javascript.mutA.js",
+    "pattern": "observer",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/javascript.js",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/python.mutA.py",
+    "pattern": "observer",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/python.py",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/ruby.mutA.rb",
+    "pattern": "observer",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/ruby.rb",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/typescript.mutA.ts",
+    "pattern": "observer",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/typescript.ts",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/vue.mutA.vue",
+    "pattern": "observer",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/observer/vue.vue",
+    "renamedIdentifiers": [
+      "Subject"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/mutB.ts",
+    "pattern": "observer",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/observer/typescript.ts",
+    "problemsAnchored": [
+      "Acoplamiento sin abstracción común"
+    ],
+    "patternState": "ausente",
+    "note": "La colección de suscriptores desaparece: Subject llama directo a 2 observadores concretos por nombre."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/observer/mutB.py",
+    "pattern": "observer",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/observer/python.py",
+    "problemsAnchored": [
+      "Acoplamiento sin abstracción común"
+    ],
+    "patternState": "ausente",
+    "note": "La colección de suscriptores desaparece: Subject llama directo a 2 observadores concretos por nombre."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/javascript.mutA.js",
+    "pattern": "prototype",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/javascript.js",
+    "renamedIdentifiers": [
+      "Shape"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/python.mutA.py",
+    "pattern": "prototype",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/python.py",
+    "renamedIdentifiers": [
+      "Shape"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/ruby.mutA.rb",
+    "pattern": "prototype",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/ruby.rb",
+    "renamedIdentifiers": [
+      "Shape"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/typescript.mutA.ts",
+    "pattern": "prototype",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/typescript.ts",
+    "renamedIdentifiers": [
+      "Shape"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/vue.mutA.vue",
+    "pattern": "prototype",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/vue.vue",
+    "renamedIdentifiers": [
+      "Shape"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/mutB.ts",
+    "pattern": "prototype",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "clone() desaparece (excluyente ausente); la copia de campos se repite a mano en 2 funciones llamadoras."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/prototype/mutB.py",
+    "pattern": "prototype",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/prototype/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "clone() desaparece (excluyente ausente); la copia de campos se repite a mano en 2 funciones llamadoras."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/go.mutA.go",
+    "pattern": "proxy",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/go.go",
+    "renamedIdentifiers": [
+      "ShapeProxy",
+      "PureWrapper",
+      "NewShapeProxy",
+      "NewPureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/javascript.mutA.js",
+    "pattern": "proxy",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/javascript.js",
+    "renamedIdentifiers": [
+      "ShapeProxy",
+      "PureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/python.mutA.py",
+    "pattern": "proxy",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/python.py",
+    "renamedIdentifiers": [
+      "ShapeProxy",
+      "PureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/ruby.mutA.rb",
+    "pattern": "proxy",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/ruby.rb",
+    "renamedIdentifiers": [
+      "ShapeProxy",
+      "PureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/typescript.mutA.ts",
+    "pattern": "proxy",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/typescript.ts",
+    "renamedIdentifiers": [
+      "ShapeProxy",
+      "PureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/vue.mutA.vue",
+    "pattern": "proxy",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/vue.vue",
+    "renamedIdentifiers": [
+      "useShapeProxy",
+      "usePureWrapper"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/mutB.ts",
+    "pattern": "proxy",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "La guarda de inicialización perezosa se duplica en 2 métodos en vez de centralizarse en un único punto de acceso."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/proxy/mutB.py",
+    "pattern": "proxy",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/proxy/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "La guarda de inicialización perezosa se duplica en 2 métodos en vez de centralizarse en un único punto de acceso."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/go.mutA.go",
+    "pattern": "singleton",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/go.go",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext",
+      "GetAppConfig",
+      "NewRequestContext",
+      "appConfigInstance",
+      "appConfigOnce"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/javascript.mutA.js",
+    "pattern": "singleton",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/javascript.js",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/python.mutA.py",
+    "pattern": "singleton",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/python.py",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/ruby.mutA.rb",
+    "pattern": "singleton",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/ruby.rb",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/typescript.mutA.ts",
+    "pattern": "singleton",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/typescript.ts",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/vue.mutA.vue",
+    "pattern": "singleton",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/vue.vue",
+    "renamedIdentifiers": [
+      "AppConfig",
+      "RequestContext"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/mutB.ts",
+    "pattern": "singleton",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/typescript.ts",
+    "problemsAnchored": [
+      "Instanciación directa dispersa"
+    ],
+    "patternState": "aplicado-eludido",
+    "note": "getInstance() sigue existiendo pero 2 sitios construyen AppConfig directamente: la fachada de un único punto de acceso esta, pero se puentea."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/singleton/mutB.py",
+    "pattern": "singleton",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/singleton/python.py",
+    "problemsAnchored": [
+      "Instanciación directa dispersa"
+    ],
+    "patternState": "aplicado-eludido",
+    "note": "getInstance() sigue existiendo pero 2 sitios construyen AppConfig directamente: la fachada de un único punto de acceso esta, pero se puentea."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/go.mutA.go",
+    "pattern": "state",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/go.go",
+    "renamedIdentifiers": [
+      "LightState",
+      "RedState",
+      "GreenState",
+      "YellowState",
+      "TrafficLight"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/javascript.mutA.js",
+    "pattern": "state",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/javascript.js",
+    "renamedIdentifiers": [
+      "RedState",
+      "GreenState",
+      "YellowState",
+      "TrafficLight"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/python.mutA.py",
+    "pattern": "state",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/python.py",
+    "renamedIdentifiers": [
+      "RedState",
+      "GreenState",
+      "YellowState",
+      "TrafficLight"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/ruby.mutA.rb",
+    "pattern": "state",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/ruby.rb",
+    "renamedIdentifiers": [
+      "TrafficLight",
+      "RedState",
+      "GreenState",
+      "YellowState"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/typescript.mutA.ts",
+    "pattern": "state",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/typescript.ts",
+    "renamedIdentifiers": [
+      "RedState",
+      "GreenState",
+      "YellowState",
+      "TrafficLight",
+      "LightState"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/vue.mutA.vue",
+    "pattern": "state",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/state/vue.vue",
+    "renamedIdentifiers": [
+      "RedState",
+      "GreenState",
+      "YellowState",
+      "TrafficLight",
+      "LightState"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/mutB.ts",
+    "pattern": "state",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/state/typescript.ts",
+    "problemsAnchored": [
+      "Cadena de condicionales",
+      "Complejidad cognitiva"
+    ],
+    "patternState": "ausente",
+    "note": "Las 3 clases-estado y su despacho polimórfico se aplanaron en un único campo discriminante con if/elif repartido en dos métodos."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/state/mutB.py",
+    "pattern": "state",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/state/python.py",
+    "problemsAnchored": [
+      "Cadena de condicionales",
+      "Complejidad cognitiva"
+    ],
+    "patternState": "ausente",
+    "note": "Las 3 clases-estado y su despacho polimórfico se aplanaron en un único campo discriminante con if/elif repartido en dos métodos."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/go.mutA.go",
+    "pattern": "strategy_command_functional",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/go.go",
+    "renamedIdentifiers": [
+      "Sorter",
+      "EventBus",
+      "PrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/javascript.mutA.js",
+    "pattern": "strategy_command_functional",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/javascript.js",
+    "renamedIdentifiers": [
+      "Sorter",
+      "EventBus",
+      "PrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/python.mutA.py",
+    "pattern": "strategy_command_functional",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/python.py",
+    "renamedIdentifiers": [
+      "Sorter",
+      "EventBus",
+      "PrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/ruby.mutA.rb",
+    "pattern": "strategy_command_functional",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/ruby.rb",
+    "renamedIdentifiers": [
+      "Collection",
+      "EventBus",
+      "PrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/typescript.mutA.ts",
+    "pattern": "strategy_command_functional",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/typescript.ts",
+    "renamedIdentifiers": [
+      "Sorter",
+      "EventBus",
+      "PrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/vue.mutA.vue",
+    "pattern": "strategy_command_functional",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/vue.vue",
+    "renamedIdentifiers": [
+      "useSorter",
+      "useEventBus",
+      "usePrintCommand"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/mutB.ts",
+    "pattern": "strategy_command_functional",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/typescript.ts",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "El comparador inyectable (Strategy en forma funcional) se reemplaza por un modo nombrado despachado con if/elif, cada rama con cuerpo sustancial."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/strategy_command_functional/mutB.py",
+    "pattern": "strategy_command_functional",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/strategy_command_functional/python.py",
+    "problemsAnchored": [
+      "Cadena de condicionales"
+    ],
+    "patternState": "ausente",
+    "note": "El comparador inyectable (Strategy en forma funcional) se reemplaza por un modo nombrado despachado con if/elif, cada rama con cuerpo sustancial."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/go.mutA.go",
+    "pattern": "template_method",
+    "language": "go",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/go.go",
+    "renamedIdentifiers": [
+      "Mine",
+      "MineCSV",
+      "MineLog"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/javascript.mutA.js",
+    "pattern": "template_method",
+    "language": "javascript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/javascript.js",
+    "renamedIdentifiers": [
+      "DataMiner",
+      "CsvDataMiner",
+      "LogDataMiner"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/python.mutA.py",
+    "pattern": "template_method",
+    "language": "python",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/python.py",
+    "renamedIdentifiers": [
+      "DataMiner",
+      "CsvDataMiner",
+      "LogDataMiner"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/ruby.mutA.rb",
+    "pattern": "template_method",
+    "language": "ruby",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/ruby.rb",
+    "renamedIdentifiers": [
+      "DataMiner",
+      "CsvDataMiner",
+      "LogDataMiner"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/typescript.mutA.ts",
+    "pattern": "template_method",
+    "language": "typescript",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/typescript.ts",
+    "renamedIdentifiers": [
+      "DataMiner",
+      "CsvDataMiner",
+      "LogDataMiner"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/vue.mutA.vue",
+    "pattern": "template_method",
+    "language": "vue",
+    "mutation": "A-clone-duplicate",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/vue.vue",
+    "renamedIdentifiers": [
+      "DataMiner",
+      "CsvDataMiner",
+      "LogDataMiner"
+    ],
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "parcial",
+    "note": "Duplicación mecánica del archivo completo con identificadores de nivel superior renombrados (sufijo '2'): produce ≥2 unidades estructuralmente idénticas en el mismo archivo."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/mutB.ts",
+    "pattern": "template_method",
+    "language": "typescript",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/typescript.ts",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El esqueleto de 5 pasos deja de vivir en una superclase: se duplica completo en 2 funciones libres, cada una con su paso variable inlined."
+  },
+  {
+    "path": "tests/fixtures/patterns-positive/template_method/mutB.py",
+    "pattern": "template_method",
+    "language": "python",
+    "mutation": "B-remove-abstraction",
+    "sourceCanonical": "tests/fixtures/patterns/template_method/python.py",
+    "problemsAnchored": [
+      "Duplicación (los 5 de hoy)"
+    ],
+    "patternState": "ausente",
+    "note": "El esqueleto de 5 pasos deja de vivir en una superclase: se duplica completo en 2 funciones libres, cada una con su paso variable inlined."
+  }
+]

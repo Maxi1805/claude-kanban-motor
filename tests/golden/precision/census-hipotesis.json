@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "descripcion": "Censo REAL (todos los estados) de hipótesis de los cuatro patrones que producen volumen, contado directo sobre los volcados precalculados que trae la ola (no re-analizado). Usado por scripts/hypotheses-precision-report.mts --census para ponderar la precisión global por volumen real en vez de promediar muestras de tamaño distinto.",
+    "fuente": {
+      "ck-analyzer": "/home/maxi1805/claude-kanban-docs/volcados/src.json (finding.hypotheses[].pattern)",
+      "rails": "/home/maxi1805/claude-kanban-docs/volcados/rails.json (finding.hypotheses[].pattern)"
+    },
+    "nota": "Estos números NO coinciden con la tabla del encargo de la ola (que da Decorator 34/78 y Chain of Responsibility 27/32 con src y Rails INVERTIDOS respecto de este censo). Proxy y Strategy sí coinciden en orden de magnitud (casi nulos en src). Se reporta el censo tal como sale de los volcados dados, no el de la tabla — ver aviso en el informe."
+  },
+  "poblacion": {
+    "ck-analyzer": {
+      "Decorator": 78,
+      "Proxy (inicialización perezosa)": 3,
+      "Chain of Responsibility": 32,
+      "Strategy": 1
+    },
+    "rails": {
+      "Decorator": 34,
+      "Proxy (inicialización perezosa)": 40,
+      "Chain of Responsibility": 27,
+      "Strategy": 10
+    }
+  }
+}

@@ -1,0 +1,4 @@
+id,slug,pattern,state,kind,file,startLine,endLine,symbol,title,detail,confidence,cost,toConfirm,places,evidence,verdict,causeTag,note,stillPresent
+u-m0::Chain of Responsibility::jekyll::lib/jekyll/commands/serve.rb:113,jekyll,Chain of Responsibility,parcial,,lib/jekyll/commands/serve.rb,113,113,,,,,,,,,falso,many-returns,"validate_options: guardas independientes de opciones (livereload/detach, ssl_cert/key) - calco textual del bug que el plan describe.",true
+u-m0::Command::jekyll::lib/jekyll/document.rb:242,jekyll,Command,ausente,,lib/jekyll/document.rb,242,242,,,,,,,,,falso,ancla-equivocada,url: metodo memoizado que arma una URL.,true
+u-m0::Facade::jekyll::lib/jekyll/site.rb:1,jekyll,Facade,ya-aplicado,,lib/jekyll/site.rb,1,1,,,,,,,,,verdadero,,"Site#initialize construye y retiene Reader/Profiler/Regenerator/LiquidRenderer, coordinador real.",true

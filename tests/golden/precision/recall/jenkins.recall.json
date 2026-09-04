@@ -1,0 +1,30 @@
+{
+  "slug": "jenkins",
+  "sha": "",
+  "measuredAt": "2026-09-02T14:40:07.706Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 1724,
+  "source": "scratchpad-aterrizaje/dumps-despues/jenkins.json",
+  "status": {
+    "boolean-complexity:cmrJxS1ahD_dQkUD": "id",
+    "complexity:-PT63ERKiJytpo8z": "id",
+    "complexity:0Qt4qyRxjw1pk-vC": "id",
+    "complexity:0Uz-y1f4-H7ZxJTb": "id",
+    "complexity:115t86iaCpAoGcGM": "id",
+    "conditional-chain:Ik2uTEyJTqmqBNXD": "id",
+    "dependency-cycle:s0T5hAA__E47EsYI": "id",
+    "duplication:nMhMJVl0_sb_9QR5": "id",
+    "god-component:Gvv4sTl1_p31iBgA": "id",
+    "homonymous-divergent-sequence:TDrIHA56uz_-usPP": "id",
+    "homonymous-divergent-sequence:hQzNZYGBc4TlwjyX": "id",
+    "homonymous-divergent-sequence:qeuUzBRjE4ZfCLBt": "id",
+    "large-class:jVSeICRtzbyfOKsX": "id",
+    "long-function:IyEI_8aS8vlmdMQb": "id",
+    "long-parameter-list:3VybJDNkVeRv4rz-": "id",
+    "primitive-obsession:DNRRgQSKoeT6-dzg": "id",
+    "primitive-obsession:OGXLQOf7xS9lLwM3": "id",
+    "recursive-collection-descent:fai9sxwLOuva1P_q": "id",
+    "repeated-access-control:2FGJBphMnJpqa181": "id",
+    "repeated-access-control:xwdZ0M451agdsG4z": "id"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "satisfies",
+    "language": "java",
+    "razon": "Presupuesto de 30ms por tajada (CONTRATO-F8G.md/graph/edges/satisfies-derive.ts) se agota en el primer recorrido lineal de los `contains` de guava en frío (medido en la máquina de esa tarea: ~27ms sólo ESE recorrido, antes de comparar una sola firma) — 0 no es ausencia de la construcción (guava tiene abundante jerarquía de interfaces/converters) sino techo de rendimiento ya documentado en el propio archivo. Verificado con onGraph real: guava (1977 archivos, 120253 aristas) da satisfies=0. Java es el único lenguaje con evidencia real en el corpus (audited), así que esto sí rompe la compuerta hoy.",
+    "ola": 9
+  },
+  {
+    "kind": "invokes-indirect",
+    "language": "ruby",
+    "razon": "TABLA-ARISTAS.md dejó esto ABIERTO ('el patrón self.método(...) SÍ es común... no pude decidir sin instrumentar'), a partir de un grep amplio (`self\\.` sin exigir paréntesis) que dio 56 en rubocop/lib y 16 en jekyll/lib. Reinvestigado con un grep DIRIGIDO al patrón real que esta arista busca — una llamada con receptor `self` (`self\\.[a-zA-Z_][a-zA-Z0-9_]*\\(` y también la forma sin paréntesis con argumentos) — en `lib/**` de AMBOS repos: CERO ocurrencias en los dos. Las 56/16 originales son, verificado línea por línea, casi todas `self.class.método` (cadena — el receptor real es `self.class`, no `self`; el propio extractor lo captura con `qualifier: \"self.class\"`, correctamente EXCLUIDO por no matchear `self`/`this`) o `self.atributo = valor` (asignación de setter, `isCallee: false`, Forma 1/5 — `carries-derive.ts`, no ésta). Confirmado extrayendo `ReferenceFacts` reales sobre snippets Ruby: `self.on_change(1)` sí produce `role: \"receiver-member\", qualifier: \"self\", isCallee: true` correctamente — el extractor SÍ ve el patrón cuando existe. Causa real: el estilo idiomático de Ruby llama a sus propios métodos de instancia DESNUDOS (`foo(args)`, resuelto como `calls` vía el despacho implícito de `resolve.ts#classMemberStage`), nunca con el prefijo `self.` — la única vez que Ruby ESCRIBE `self.` es para un setter (`self.attr = x`, Forma 1/5) o para acceder a la metaclase (`self.class`, receptor distinto). Categoría 3 (RAICES.md/TABLA-ARISTAS.md): el repo/lenguaje no escribe la construcción que esta arista busca, no un hueco del extractor. cero correcto, no un bug.",
+    "ola": 13
+  },
+  {
+    "kind": "invokes-indirect",
+    "language": "csharp",
+    "razon": "Confirma, con un tercer repo de la generalización del receptor (Go) de esta misma tarea, el hallazgo ya registrado en TABLA-ARISTAS.md: de 99 ocurrencias de `this.Método(...)` en TODO el checkout de newtonsoft-json, las 99 están dentro de `Src/Newtonsoft.Json.Tests/**` — CERO en `Src/Newtonsoft.Json/**` (producción). El estilo idiomático de este repo confía en el `this` IMPLÍCITO de C# (`Método()` desnudo, resuelto como `calls` vía la excepción `role===\"bare\" && isCallee` de `resolve.ts#classMemberStage`), igual que Ruby con `self`. Remedido tras la generalización del receptor (que sólo agrega Go — C# no expone campo `receiver` propio, su despacho es implícito, sin declaración en el AST) y sigue en 0, como se esperaba: la generalización no inventa material que el repo no escribe. Sin un segundo repo C# en el corpus no se puede separar \"estilo de newtonsoft-json\" de \"estilo típico de C#\" con certeza — igual que la nota original — pero el cero es consistente con Ruby (mismo mecanismo de despacho implícito, misma convención de no escribir el calificador redundante) y no con un extractor ciego.",
+    "ola": 13
+  },
+  {
+    "kind": "stores",
+    "language": "csharp",
+    "razon": "Ola R (R3), arista `stores` (`graph/edges/cadena-identidad.ts`). CERO en C# y la causa NO esta en el extractor ni en la gramatica: la construccion existe (`class F { static object x = new T(); }`) y la sonda recupera su forma sin problema (`variable_declarator` / profundidad 2 / `object_creation_expression` / campo `type`, fijado en `cadena-identidad.test.ts`). Lo que falta es el NODO del extremo `from`: `graph/symbols.ts` nombra un declarador de binding con `childForFieldName(\"name\") ?? childForFieldName(\"left\")`, y el `variable_declarator` de C# lleva su identificador en POSICION 0, sin campo -- asi que no minta ningun simbolo. Medido de punta a punta con el pipeline real (`analyzeRepo` + `onGraph`) sobre newtonsoft-json: 0 nodos `symbol` con `family: \"other\"` en TODO el repo, contra 57 en cobra, 405 en nest, 373 en click y 130 en jekyll. Emitir igual seria colgar la arista de un id inexistente, que es justo lo que `graph/edge-endpoints.test.ts` existe para impedir (423+524+22 aristas colgadas medidas en la Ola P). NO se declara en `absentIn` a proposito: `absentIn` significa \"el lenguaje no tiene esta construccion\", y aca si la tiene -- es un agujero que SI se arregla, en `graph/symbols.ts`. Ver el PIDO A OTRO FRENTE de `ola-r/informes/R3.md`.",
+    "ola": 18
+  }
+]

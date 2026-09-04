@@ -1,0 +1,24 @@
+{
+  "slug": "netbox",
+  "sha": "",
+  "measuredAt": "2026-09-02T14:40:07.776Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 935,
+  "source": "scratchpad-aterrizaje/dumps-despues/netbox.json",
+  "status": {
+    "complexity:0D0GgHULpB0EGOxy": "id",
+    "homonymous-divergent-sequence:-FBUMeVxwTekjC9J": "id",
+    "homonymous-divergent-sequence:34k23-4QHVX6v8Jj": "id",
+    "homonymous-divergent-sequence:5bSGgiDjd-MCi6pv": "id",
+    "homonymous-divergent-sequence:J8MJHlXrOd1GzjnQ": "id",
+    "homonymous-divergent-sequence:KQVn69R9QKEJfE9y": "id",
+    "homonymous-divergent-sequence:Kmnnbt-7TotjJX9i": "id",
+    "homonymous-divergent-sequence:ruRdq2svN2UdLWGK": "id",
+    "homonymous-divergent-sequence:wjrnEl_xJnbletb8": "id",
+    "long-function:4KE7KJjr4kWtlZi5": "id",
+    "long-function:T803Zq6Qo3MbDIKZ": "id",
+    "repeated-collaborator-set:Lavfirx9mn7xf9eq": "id",
+    "repeated-configured-assembly:qwAhaHBL8jWR4nok": "id",
+    "repeated-configured-assembly:tnUk1WQZq-hAzp6C": "id"
+  }
+}

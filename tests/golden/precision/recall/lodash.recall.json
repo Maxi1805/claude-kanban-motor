@@ -1,0 +1,13 @@
+{
+  "slug": "lodash",
+  "sha": "a666ba591064c8011988275790ad7d625279f09c",
+  "measuredAt": "2026-09-02T14:40:07.709Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 45,
+  "source": "scratchpad-aterrizaje/dumps-despues/lodash.json",
+  "status": {
+    "conditional-chain:ZuEPOtd19S_3OBA0": "id",
+    "empty-catch:WGoaCdFYO_0yI3P6": "id",
+    "long-function:-IEj3bRwRC9aPzlm": "id"
+  }
+}

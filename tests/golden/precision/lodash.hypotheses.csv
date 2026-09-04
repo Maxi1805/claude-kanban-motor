@@ -1,0 +1,2 @@
+id,slug,pattern,state,kind,file,startLine,endLine,symbol,title,detail,confidence,cost,toConfirm,places,evidence,verdict,causeTag,note,stillPresent
+u-m0::Strategy::lodash::lodash.js:6280,lodash,Strategy,ausente,,lodash.js,6280,6280,,,,,,,,,verdadero,,initCloneByTag: switch(tag) selecciona ALGORITMOS DE CLONADO genuinamente distintos por tipo.,true

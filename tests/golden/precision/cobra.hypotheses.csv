@@ -1,0 +1,3 @@
+id,slug,pattern,state,kind,file,startLine,endLine,symbol,title,detail,confidence,cost,toConfirm,places,evidence,verdict,causeTag,note,stillPresent
+u-m0::Chain of Responsibility::cobra::command.go:905,cobra,Chain of Responsibility,parcial,,command.go,905,905,,,,,,,,,falso,many-returns,"execute(): guarda nil + llamadas de setup secuenciales, sin campo next.",true
+many-returns:77geXoXnBK0qtlBv::Chain of Responsibility,cobra,Chain of Responsibility,parcial,many-returns,command.go,821,,,,,media,,,,,falso,,"Command.Traverse es recursion sobre el arbol de comandos (cmd.Traverse(args[i+1:])), y el switch es parseo de flags. No hay cadena de manejadores.",true

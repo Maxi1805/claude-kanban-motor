@@ -1,0 +1,28 @@
+<script>
+class Shape {
+  constructor(color, x, y) {
+    this.color = color;
+    this.x = x;
+    this.y = y;
+  }
+  clone() {
+    return new Shape(this.color, this.x, this.y);
+  }
+}
+
+
+// --- POSITIVO (mutacion A: clone-duplicate) ---
+
+class Shape2 {
+  constructor(color, x, y) {
+    this.color = color;
+    this.x = x;
+    this.y = y;
+  }
+  clone() {
+    return new Shape2(this.color, this.x, this.y);
+  }
+}
+
+</script>
+<template><div /></template>

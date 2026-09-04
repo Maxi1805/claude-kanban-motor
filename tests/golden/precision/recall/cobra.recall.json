@@ -1,0 +1,21 @@
+{
+  "slug": "cobra",
+  "sha": "adbc8813901bba65827259daa8e22ff94ec1f30e",
+  "measuredAt": "2026-09-02T14:40:07.361Z",
+  "analyzerFingerprint": "6f21df8deb1d1f8e3ccacef522b85430f8776699984e1a20018e976dee8835d4",
+  "poolFindings": 45,
+  "source": "scratchpad-aterrizaje/dumps-despues/cobra.json",
+  "status": {
+    "argument-mutation:7i1KtTURD6LyJhJu": "id",
+    "argument-mutation:_jNQIKjfLX8Gkmnv": "id",
+    "argument-mutation:qrgXfkHtDiQ-Erh_": "id",
+    "complexity:e63NxAfbeM2Z2VGg": "id",
+    "complexity:jo_o5eTZsSdSy4dc": "id",
+    "homonymous-delegation:TzfFBbTqg6GE24u6": "id",
+    "long-function:3eyeQ8fBsLxP-fiE": "id",
+    "long-function:gbvcKrJQSlwUQkOj": "id",
+    "unused-variable:-EuWocR45SfKZlBC": "perdido",
+    "unused-variable:_l5qhW_Ht-y6zDU7": "perdido",
+    "unused-variable:bitUqcU91Lh8kjx0": "perdido"
+  }
+}
