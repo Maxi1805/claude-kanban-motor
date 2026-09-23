@@ -417,8 +417,8 @@ function candidatesText(label: string, candidates: readonly CodeGraphNode[]) {
 /** Resuelve lo que pasó el agente a un nodo: un id exacto, `archivo#Simbolo`, una ruta de archivo, o un nombre suelto. */
 function resolveNode(graph: CodeGraph, target: string): { node?: CodeGraphNode; candidates?: CodeGraphNode[] } {
   const byId = new Map(graph.nodes.map((n) => [n.id, n]));
-  // `ruta#Simbolo:123` (lo que imprime nodeLabel) → `ruta#Simbolo`.
-  const bare = target.includes("#") ? target.replace(/:\d+$/, "") : target;
+  // `ruta#Simbolo:123` o `ruta#Simbolo:123-140` (lo que imprime nodeLabel) → `ruta#Simbolo`.
+  const bare = target.includes("#") ? target.replace(/:\d+(?:-\d+)?$/, "") : target;
   const direct = byId.get(bare) ?? byId.get(`sym:${bare}`) ?? byId.get(`file:${bare}`);
   if (direct) return { node: direct };
   const lower = target.toLowerCase();
