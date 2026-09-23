@@ -1,0 +1,14 @@
+{
+  "name": "claude-kanban-motor-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Servidor MCP del motor de análisis: problemas, recomendaciones, problemas nuevos contra una rama, y navegación por el grafo de código",
+  "bin": { "claude-kanban-motor-mcp": "./start.sh" },
+  "scripts": { "start": "tsx server.ts" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.25.0"
+  }
+}
