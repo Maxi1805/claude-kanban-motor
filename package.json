@@ -39,5 +39,12 @@
     "vite": "^6.3.5",
     "vitest": "^3.2.4",
     "vue-tsc": "^2.2.10"
-  }
+  },
+  "exports": {
+    ".": "./src/server/services/engine/index.ts",
+    "./analyzer": "./src/server/services/code-analyzer.ts"
+  },
+  "files": [
+    "src"
+  ]
 }
